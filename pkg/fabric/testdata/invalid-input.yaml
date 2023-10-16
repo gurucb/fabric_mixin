@@ -1,5 +1,5 @@
 install:
-  - skeletor:
+  - fabric:
       description: "Invalid Input Test Case"
       args:
       - yarrrr

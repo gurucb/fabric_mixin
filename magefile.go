@@ -10,8 +10,8 @@ import (
 )
 
 const (
-	mixinName    = "skeletor"
-	mixinPackage = "github.com/getporter/skeletor"
+	mixinName    = "fabric"
+	mixinPackage = "github.com/getporter/fabric"
 	mixinBin     = "bin/mixins/" + mixinName
 )
 
@@ -46,7 +46,7 @@ func Test() {
 func Publish() {
 	// You can test out publishing locally by overriding PORTER_RELEASE_REPOSITORY and PORTER_PACKAGES_REMOTE
 	if _, overridden := os.LookupEnv(releases.ReleaseRepository); !overridden {
-		os.Setenv(releases.ReleaseRepository, "github.com/YOURNAME/YOURREPO")
+		os.Setenv(releases.ReleaseRepository, "github.com/gurucb/fabric_mixin")
 	}
 	magefile.PublishBinaries()
 

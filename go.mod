@@ -1,4 +1,4 @@
-module github.com/getporter/skeletor
+module github.com/getporter/fabric
 
 go 1.19
 

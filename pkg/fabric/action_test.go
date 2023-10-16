@@ -1,4 +1,4 @@
-package skeletor
+package fabric
 
 import (
 	"io/ioutil"
